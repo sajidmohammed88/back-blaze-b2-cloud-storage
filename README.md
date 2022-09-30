@@ -1,5 +1,7 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Library project that implement Backblaze B2 Cloud Storage.
+
+Backblaze B2 Cloud Storage is a cloud service for storing files in the cloud. Files are available for download at any time, either through APIs or a browser-compatible URL.
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
