@@ -1,7 +1,7 @@
 # Introduction 
 Library project that implement Backblaze B2 Cloud Storage.
 
-Backblaze B2 Cloud Storage is a cloud service for storing files in the cloud. Files are available for download at any time, either through APIs or a browser-compatible URL.
+[Backblaze B2 Cloud Storage](https://www.backblaze.com/b2/docs/) is a cloud service for storing files in the cloud. Files are available for download at any time, either through APIs or a browser-compatible URL.
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
