@@ -14,7 +14,7 @@ namespace BackBlazeB2CloudStorage.Tests.Unit
 
     public BackBlazeApiServiceTests()
     {
-      _backBlazeApiService = new BackBlazeApiService(new BackBlazeAuthorizationService("0045d88ceb180d80000000003", "K004QQfvmYM6a0863V61GNCbsPjsFHI"), new Mock<ILogger<BackBlazeApiService>>().Object);
+      _backBlazeApiService = new BackBlazeApiService(new BackBlazeAuthorizationService("************", "*****************"), new Mock<ILogger<BackBlazeApiService>>().Object);
     }
 
     [Fact]
