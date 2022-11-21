@@ -11,7 +11,7 @@ namespace BackBlazeB2CloudStorage.Tests.Unit
     {
       _backBlazeAuthorization = RestService.For<IBackBlazeAuthorization>(Constants.AuthorizationBaseUrl, new RefitSettings
       {
-        AuthorizationHeaderValueGetter = GenerateAuthorizationToken("0045d88ceb180d80000000003", "K004QQfvmYM6a0863V61GNCbsPjsFHI")
+        AuthorizationHeaderValueGetter = GenerateAuthorizationToken("***************", "*********************")
       });
     }
 
@@ -41,7 +41,7 @@ namespace BackBlazeB2CloudStorage.Tests.Unit
       // arrange
       var backBlazeAuthorization = RestService.For<IBackBlazeAuthorization>(Constants.AuthorizationBaseUrl, new RefitSettings
       {
-        AuthorizationHeaderValueGetter = GenerateAuthorizationToken(null, "K004QQfvmYM6a0863V61GNCbsPjsFHI")
+        AuthorizationHeaderValueGetter = GenerateAuthorizationToken(null, "**************************")
       });
 
       // Act && Assert
